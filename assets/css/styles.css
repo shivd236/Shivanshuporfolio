@@ -337,7 +337,7 @@ body.light-theme {
 .home__img {
   width: 81%;
   height: 85%;
-  filter: opacity(100%);
+
   
   
 
@@ -454,7 +454,7 @@ body.light-theme {
   border-radius: 1.5rem;
   justify-self: center;
   background-size: cover;
-   filter:  brightness(92%) opacity(110%) ; 
+   filter:  brightness(73%); 
 
 
    
