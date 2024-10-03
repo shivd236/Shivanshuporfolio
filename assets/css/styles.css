@@ -334,9 +334,10 @@ body.light-theme {
   color: var(--first-color);
 }
 
-.home__img {
+/* .home__img {
   width: 81%;
   height: 85%;
+  background-size: cover;
 
   
   
@@ -359,7 +360,32 @@ body.light-theme {
   align-items: flex-end;
   justify-content: center;
   overflow: hidden;
+} */
+
+.home__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
+
+.home__handle {
+  justify-self: center;
+  width: 230px;
+  height: 400px; /* Increased height for better coverage */
+  border-radius: 10rem 10rem 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: linear-gradient(
+    180deg,
+    hsla(var(--first-hue), var(--sat), var(--lig), 0.5),
+    hsla(var(--first-hue), var(--sat), var(--lig), 0.1)
+  );
+}
+
+
+
 
 .home__button {
   display: flex;
@@ -454,7 +480,7 @@ body.light-theme {
   border-radius: 1.5rem;
   justify-self: center;
   background-size: cover;
-   filter:  brightness(85%); 
+   /* filter:  brightness(85%);  */
 
 
    
@@ -684,8 +710,8 @@ body.light-theme {
 }
 
 .work__img {
-  border-radius: 1rem;
-  margin-bottom: 0.75rem;
+border-radius: 1rem;
+margin-bottom: 0.75rem;
 }
 
 .work__title {
@@ -737,6 +763,8 @@ body.light-theme {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   margin-bottom: 0.25rem;
+  color: var(--first-color);
+
 }
 
 .testimonial__description {
@@ -989,7 +1017,7 @@ body.light-theme {
   }
 
   .work__img {
-    width: 165px;
+     width: 165px;
   }
 }
 
@@ -1055,6 +1083,7 @@ body.light-theme {
 
   .work__img {
     width: 250px;
+
   }
 
   .testimonial__container {
@@ -1128,8 +1157,10 @@ body.light-theme {
   }
 
   .home__img {
-    width: 85%;
-    height: 85%;
+    /* width: 85%;
+    height: 85%; */
+    width: 100%;
+    height: 100%;
 
    
   }
@@ -1171,7 +1202,7 @@ body.light-theme {
   }
 
   .about__description {
-    padding: 0 4rem 0 0;
+    padding: 0 0 0 0;
     margin-bottom: 2.5rem;
   }
 
@@ -1204,6 +1235,10 @@ body.light-theme {
 
   .work__img {
     margin-bottom: 2rem;
+    /* height: 200px;
+    object-fit: cover; */
+    height: 170px;
+    object-fit: fill;
   }
 
   .work__title {
