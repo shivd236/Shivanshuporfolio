@@ -183,6 +183,10 @@ body.light-theme {
 .light-theme::-webkit-scrollbar {
   background-color: hsl(var(--second-hue), 8%, 80%);
 }
+
+ .light-theme .about__box{
+  color:#525760 ;
+} 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 968px;
@@ -219,6 +223,8 @@ body.light-theme {
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
 }
+
+
 
 /*=============== HEADER & NAV===============*/
 .header {
@@ -519,6 +525,10 @@ body.light-theme {
 
 .about__description {
   margin-bottom: 2rem;
+}
+
+.about__box {
+  color:#babec4 ;
 }
 
 /*=============== SKILLS ===============*/
